@@ -6,13 +6,18 @@
 import {
   Bell,
   Briefcase,
+  Coffee,
   ExternalLink,
   GraduationCap,
   Heart,
   Home,
   MapPin,
   MessageSquare,
+  Mic,
+  Plane,
+  Rocket,
   Search,
+  Swords,
   ThumbsUp,
   Users,
 } from 'lucide-react';
@@ -100,7 +105,7 @@ export default function App() {
                   <div>
                     <h1 className="text-2xl font-semibold">Willian <span className="text-gray-400 font-normal text-sm ml-2">(Ele/Dele)</span></h1>
                     <p className="text-sm mt-1 leading-tight text-[#000000e6]">
-                      Estudante de SI | Empreendedor de ideias da madrugada | Lutador | Aspirante a pé-de-valsa no forró
+                      Estudante de SI | "Extrovertimedo" movido a café | Lutador | Aspirante a pé-de-valsa | Colecionador de Hobbies
                     </p>
                     <div className="flex items-center gap-1 text-gray-500 text-xs mt-2">
                       <MapPin className="w-3.5 h-3.5" />
@@ -141,16 +146,16 @@ export default function App() {
                 Venho por meio desta me recomendar como um <span className="font-semibold">pretendente em potencial</span>, ainda em fase de análise, mas com bons indícios de ser uma experiência interessante, levemente intensa e possivelmente cheia de boas histórias.
               </p>
               <p>
-                Sou estudante de Sistemas de Informação, apaixonado por tecnologia, empreendedorismo e por transformar ideias em projetos reais. Sou o tipo de pessoa que dificilmente fica parada: quando não estou estudando programação, pensando em aplicativos ou criando soluções digitais, provavelmente estou tentando organizar alguma ideia nova que apareceu do nada na cabeça às duas da manhã.
+                Sou estudante de Sistemas de Informação, apaixonado por tecnologia, empreendedorismo e, fundamentalmente, por aprender coisas novas — sou um verdadeiro colecionador de hobbies. Dificilmente fico parado, dividindo meu tempo entre criar soluções digitais, treinar ou tentar organizar aquela ideia nova que surgiu às duas da manhã.
               </p>
               <p>
-                No convívio, busco evoluir constantemente. Valorizo conversas profundas, mas também gosto de humor, leveza e momentos simples. Tenho um perfil que mistura disciplina com caos criativo: treino, estudo, crio projetos, tento organizar a própria rotina e, no meio disso tudo, ainda arrumo tempo para pensar em como ser uma pessoa melhor.
+                No convívio social, me defino como um <span className="italic font-medium">"extrovertimedo"</span>. Sou extrovertido e adoro conversar, especialmente quando estou na companhia de pessoas tagarelas que trazem assuntos legais (sempre acompanhado de um bom café, a verdadeira paixão). No entanto, minha bateria social tem limite: do nada, posso ficar um pouco mais "na minha" para dar aquela recarregada nas energias.
               </p>
               <p>
-                Não aceito viver no automático. Gosto de aprender, melhorar, testar caminhos, construir coisas e buscar uma vida com mais propósito. A intensidade é direcionada: quero crescer, criar, me desenvolver e viver experiências que realmente façam sentido.
+                Não aceito viver no automático e tenho planos bem claros para o futuro. Quero morar um tempo fora do país, fundar minha própria startup (com um olhar especial para a área da educação), abrir meu próprio CT de lutas, e ainda quero investir pesado no mundo audiovisual com um podcast ou canal no YouTube para trocar ideias fascinantes. A intensidade é grande, mas a ambição é guiada num só propósito: criar e viver o que realmente faz sentido.
               </p>
               <div className="mt-4 p-4 bg-blue-50 rounded-md border-l-4 border-[#0a66c2] text-sm text-[#000000e6]">
-                <strong>Resumo da Vaga:</strong> Estudante de Sistemas de Informação, atleta nas horas vagas, leitor em construção, dançarino iniciante, empreendedor de ideias, fã de natureza e alguém tentando equilibrar ambição, leveza e propósito.
+                <strong>Resumo da Vaga:</strong> Estudante de SI, atleta amador, colecionador de hobbies, aspirante a podcaster, "extrovertimedo" movido a café e futuro fundador de startup — tentando equilibrar grandes ambições, foco e leveza no dia a dia.
               </div>
             </div>
           </div>
@@ -215,6 +220,72 @@ export default function App() {
             </div>
           </div>
 
+          {/* Future Vision Card */}
+          <div className="bg-white rounded-lg border border-gray-200 p-6 flex flex-col gap-4">
+            <h2 className="font-semibold text-lg">Visão de Futuro e Projetos</h2>
+            <div className="space-y-6">
+              
+              <div className="flex gap-4">
+                <div className="w-12 h-12 flex-shrink-0 bg-gray-100 flex items-center justify-center rounded">
+                  <Rocket className="w-6 h-6 text-gray-600" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg leading-tight">Startup & Educação</h3>
+                  <p className="text-sm text-gray-500">Em incubação • Longo Prazo</p>
+                  <p className="text-sm text-gray-700 mt-2">
+                    Meta sólida de criar uma startup no futuro, preenchendo o grande desejo de desenvolver uma solução voltada para a área da educação e gerar impacto real.
+                  </p>
+                </div>
+              </div>
+
+              <div className="border-t border-gray-200"></div>
+
+              <div className="flex gap-4">
+                <div className="w-12 h-12 flex-shrink-0 bg-gray-100 flex items-center justify-center rounded">
+                  <Plane className="w-6 h-6 text-gray-600" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg leading-tight">Morar Fora do País</h3>
+                  <p className="text-sm text-gray-500">Projeto Cidadão do Mundo</p>
+                  <p className="text-sm text-gray-700 mt-2">
+                    Forte ambição de vivenciar novas culturas, passar um tempo morando no exterior, expandir os horizontes e trazer na bagagem novos métodos, filosofias e sabores de café.
+                  </p>
+                </div>
+              </div>
+
+              <div className="border-t border-gray-200"></div>
+
+              <div className="flex gap-4">
+                <div className="w-12 h-12 flex-shrink-0 bg-gray-100 flex items-center justify-center rounded">
+                  <Swords className="w-6 h-6 text-gray-600" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg leading-tight">CT de Luta</h3>
+                  <p className="text-sm text-gray-500">Projeto Esportivo</p>
+                  <p className="text-sm text-gray-700 mt-2">
+                    A vontade de unir a paixão pelas artes marciais ao lado empreendedor. Um dos focos é num futuro abrir e administrar o próprio Centro de Treinamento.
+                  </p>
+                </div>
+              </div>
+
+              <div className="border-t border-gray-200"></div>
+
+              <div className="flex gap-4">
+                <div className="w-12 h-12 flex-shrink-0 bg-gray-100 flex items-center justify-center rounded">
+                  <Mic className="w-6 h-6 text-gray-600" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg leading-tight">Mídia e Audiovisual</h3>
+                  <p className="text-sm text-gray-500">Comunicação e Conteúdo • (Podcast/YouTube)</p>
+                  <p className="text-sm text-gray-700 mt-2">
+                    Tem plano de investir também no audiovisual! Conversar com pessoas excelentes, ouvir ótimas ideias de pessoas que adoram falar e compartilhar tudo num podcast ou canal.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
           {/* Education Card */}
           <div className="bg-white rounded-lg border border-gray-200 p-6 flex flex-col gap-4">
             <h2 className="font-semibold text-lg">Formação Acadêmica e Intelectual</h2>
@@ -266,16 +337,24 @@ export default function App() {
             <h2 className="font-semibold text-sm mb-3">Habilidades e Competências</h2>
             <ul className="space-y-3">
               <li className="flex flex-col">
-                <span className="text-sm font-semibold">Organização do Caos</span>
-                <span className="text-xs text-gray-500 border-b border-gray-100 pb-2 flex items-center gap-1"><ThumbsUp className="w-3 h-3"/> 99+ aprovações (vozes da cabeça)</span>
+                <span className="text-sm font-semibold">Ouvinte de Tagarelas</span>
+                <span className="text-xs text-gray-500 border-b border-gray-100 pb-2 flex items-center gap-1"><ThumbsUp className="w-3 h-3"/> Rende as melhores conversas</span>
+              </li>
+              <li className="flex flex-col">
+                <span className="text-sm font-semibold">Bateria Social com Timer</span>
+                <span className="text-xs text-gray-500 border-b border-gray-100 pb-2 flex items-center gap-1">Pode ficar no escuro para carregar do nada</span>
+              </li>
+              <li className="flex flex-col">
+                <span className="text-sm font-semibold">Degustador de Café</span>
+                <span className="text-xs text-gray-500 border-b border-gray-100 pb-2 flex items-center gap-1"><Coffee className="w-3 h-3"/> Requisito e combustível diário</span>
+              </li>
+              <li className="flex flex-col">
+                <span className="text-sm font-semibold">Colecionador de Hobbies</span>
+                <span className="text-xs text-gray-500 border-b border-gray-100 pb-2 flex items-center gap-1"><Rocket className="w-3 h-3"/> Sempre pronto pra aprender o próximo</span>
               </li>
               <li className="flex flex-col">
                 <span className="text-sm font-semibold">Coragem no Forró</span>
-                <span className="text-xs text-gray-500 border-b border-gray-100 pb-2 flex items-center gap-1"><ThumbsUp className="w-3 h-3"/> Requer cuidado com pisões</span>
-              </li>
-              <li className="flex flex-col">
-                <span className="text-sm font-semibold">Programação às 2h da Manhã</span>
-                <span className="text-xs text-gray-500 flex items-center gap-1"><ThumbsUp className="w-3 h-3"/> Alto nível de cafeína</span>
+                <span className="text-xs text-gray-500 flex items-center gap-1"><ThumbsUp className="w-3 h-3"/> Requer cuidado com pisões</span>
               </li>
             </ul>
           </div>
